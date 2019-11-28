@@ -1,0 +1,14 @@
+@import "./element-ui.scss";
+@import "./transition.scss";
+body{margin: 0;}
+.el-scrollbar{
+  .el-scrollbar__wrap {
+    overflow-x: hidden;
+  }
+}
+.main-content{
+  background-color: #fff;
+  padding:20px;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
